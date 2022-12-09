@@ -1,4 +1,4 @@
-
+//TODO: fill out projects
 export const projects = [
      {
         title: "Project 1", 
