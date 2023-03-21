@@ -1,4 +1,4 @@
-export const projects = [
+export const project = [
   {
     title: "Project 1",
     description:

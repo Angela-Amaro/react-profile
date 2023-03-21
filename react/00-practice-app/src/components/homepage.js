@@ -7,7 +7,7 @@ import Resume from "./Resume";
 import Projects from "./Projects";
 
 function Homepage() {
-  const [currentPage, handlePageChange] = useState("About");
+  const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
     if (currentPage === "About") {
@@ -23,9 +23,10 @@ function Homepage() {
       return <Projects />;
     }
   };
+const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="bg-indigo-500">
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       <div>{renderPage(currentPage)}</div>
       <Footer />

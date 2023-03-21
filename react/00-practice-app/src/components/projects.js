@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "../utils/info";
+import { project } from "../utils/info";
 
 function Projects() {
   <section id="projects">
@@ -13,7 +13,7 @@ function Projects() {
         </p>
       </div>
       <div className="flex flex-wrap -m-4">
-        {projects.map((project) => (
+        {project.map((project) => (
           <a
             href={project.link}
             key={project.title}

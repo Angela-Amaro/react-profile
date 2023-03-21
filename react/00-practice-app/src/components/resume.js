@@ -1,6 +1,6 @@
 import React from "react";
 
-function resume() {
+function Resume() {
   <section id="resume">
     <div className="container px-5 py-10 mx-auto text-center lg:px-40">
       <div className="flex flex-col w-full mb-20">
@@ -22,4 +22,4 @@ function resume() {
   </section>;
 }
 
-export default resume;
+export default Resume;
